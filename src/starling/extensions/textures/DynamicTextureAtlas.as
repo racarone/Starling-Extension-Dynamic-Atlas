@@ -16,6 +16,7 @@ package starling.extensions.textures
     import flash.geom.Rectangle;
     import flash.utils.Dictionary;
 
+    import starling.extensions.utils.MaxRectPacker;
     import starling.textures.Texture;
     import starling.textures.TextureAtlas;
     import starling.utils.Color;
@@ -45,7 +46,7 @@ package starling.extensions.textures
      *  addChild(myRedRectangle);
      *  </listing>
      *
-     *  @see starling.extensions.textures.MaxRectPacker
+     *  @see starling.extensions.utils.MaxRectPacker
      */
     public class DynamicTextureAtlas extends TextureAtlas
     {

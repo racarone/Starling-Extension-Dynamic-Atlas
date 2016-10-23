@@ -19,7 +19,7 @@ package
     import starling.events.Event;
     import starling.events.KeyboardEvent;
     import starling.extensions.textures.DynamicTextureAtlas;
-    import starling.extensions.textures.MaxRectHeuristic;
+    import starling.extensions.utils.MaxRectHeuristic;
 
     public class Demo extends Sprite
     {

@@ -8,11 +8,15 @@
 //
 // =================================================================================================
 
-package starling.extensions.textures
+package starling.extensions.utils
 {
     import starling.errors.AbstractClassError;
 
-    /** Specifies the different heuristic rules that can be used when deciding where to place a new rectangle. */
+    /**
+     * Specifies the different heuristic rules that can be used when deciding where to place a new rectangle.
+     *
+     * @see starling.extensions.utils.MaxRectPacker
+     */
     public class MaxRectHeuristic
     {
         /** @private */

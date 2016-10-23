@@ -8,7 +8,7 @@
 //
 // =================================================================================================
 
-package starling.extensions.textures
+package starling.extensions.utils
 {
     import flash.geom.Rectangle;
 
@@ -23,6 +23,7 @@ package starling.extensions.textures
      *  <p>See http://clb.demon.fi/projects/more-rectangle-bin-packing and https://github.com/juj/RectangleBinPack
      *  for more information</p>
      *
+     *  @see starling.extensions.utils.MaxRectHeuristic
      */
     public class MaxRectPacker
     {
@@ -57,7 +58,7 @@ package starling.extensions.textures
          *  @param method  The heuristic method used to place the rectangle.
          *  @return        false if the insertion wasn't successful.
          *
-         *  @see starling.extensions.textures.MaxRectHeuristic
+         *  @see starling.extensions.utils.MaxRectHeuristic
          */
         public function insert(width:int, height:int, method:String):Rectangle
         {
@@ -106,7 +107,7 @@ package starling.extensions.textures
          *  @param out         A vector that will contain the successfully inserted rectangles.
          *  @return            A vector of rectangles successfully inserted.
          *
-         *  @see starling.extensions.textures.MaxRectHeuristic
+         *  @see starling.extensions.utils.MaxRectHeuristic
          */
         public function insertRectangles(rectangles:Vector.<Rectangle>, method:String,
                                          out:Vector.<Rectangle>=null):Vector.<Rectangle>
