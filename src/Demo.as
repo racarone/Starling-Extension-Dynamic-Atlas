@@ -53,12 +53,13 @@ package
         {
             if (_dynamicAtlasIndex >= MAX_ATLASES) return;
 
-            var width:Number  = Math.random()*118 + 10;
-            var height:Number = Math.random()*118 + 10;
+            var width:Number   = Math.random()*118 + 10;
+            var height:Number  = Math.random()*118 + 10;
+            var padding:Number = 2;
 
             var nativeSprite:flash.display.Sprite = new flash.display.Sprite();
             nativeSprite.graphics.lineStyle(1, Math.random() * 0xffffff, 1, true);
-            nativeSprite.graphics.drawEllipse(2, 2, width-4, height-4);
+            nativeSprite.graphics.drawEllipse(padding, padding, width-padding, height-padding);
 
             var elipseData:BitmapData = new BitmapData(Math.ceil(width), Math.ceil(height), true, 0x0);
             elipseData.draw(nativeSprite);

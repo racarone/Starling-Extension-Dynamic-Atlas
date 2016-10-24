@@ -20,8 +20,10 @@ package starling.extensions.utils
      *  <p>The DynamicAtlasTexture class uses this in order to insert regions at runtime in an efficient manner. This
      *  class is based on the work by Jukka Jylänki.</p
      *
-     *  <p>See http://clb.demon.fi/projects/more-rectangle-bin-packing and https://github.com/juj/RectangleBinPack
-     *  for more information</p>
+     *  <p>See:
+     *      <pre>http://clb.demon.fi/projects/more-rectangle-bin-packing</pre>
+     *      <pre>https://github.com/juj/RectangleBinPack</pre>
+     *  </p>
      *
      *  @see starling.extensions.utils.MaxRectHeuristic
      */

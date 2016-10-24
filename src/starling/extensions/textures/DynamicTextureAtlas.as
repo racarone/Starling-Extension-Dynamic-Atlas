@@ -22,10 +22,10 @@ package starling.extensions.textures
     import starling.utils.Color;
     import starling.utils.Pool;
 
-    /** The BitmapTextureAtlas class allows for creating a texture atlas with bitmaps dynamically at runtime.
+    /** The DynamicTextureAtlas class allows for creating a texture atlas with bitmaps at runtime.
      *
      *  <p>This is useful if you need to generate bitmaps at runtime as it allows for taking advantage of Flash's
-     *  native drawing API, without the overhead of requiring multiple textures and draw calls per object.</p>
+     *  native drawing API, without the overhead of requiring multiple textures and draw calls per image.</p>
      *
      *  <p>Here is an example using a dynamic texture atlas:</p>
      *
